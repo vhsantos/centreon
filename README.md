@@ -42,9 +42,9 @@ immediately.
 
 <h4> Product managers </h4>
 
-<a href="https://github.com/sbrizini"><img src="https://avatars.githubusercontent.com/u/40829131?v=4" title="Samir Brizini" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/omercier"><img src="https://avatars.githubusercontent.com/u/32134301?v=4" title="Olivier Mercier" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/lpinsivy"><img src="https://avatars2.githubusercontent.com/u/3351916?s=400&v=4" title="Laurent Pinsivy" width="80" height="80"></a> &nbsp;
+<a href="https://github.com/nmagniezCentreon"><img src="https://avatars.githubusercontent.com/u/87815471?v=4" title="Nils Magniez" width="80" height="80"></a> &nbsp;
 
 <h4> Development team </h4>
 
@@ -54,9 +54,7 @@ immediately.
 <a href="https://github.com/jdelpierre"><img src="https://avatars0.githubusercontent.com/u/12846806?s=400&v=4" title="Jérémy Delpierre" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/callapa"><img src="https://avatars1.githubusercontent.com/u/1265083?s=400&v=4" title="Laurent Calvet" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/sc979"><img src="https://avatars1.githubusercontent.com/u/34628915?s=400&v=4" title="Stéphane Chapron" width="80" height="80"></a> &nbsp;
-<a href="https://github.com/loiclau"><img src="https://avatars3.githubusercontent.com/u/2759315?s=400&v=4" title="Loic Laurent" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/leoncx"><img src="https://avatars1.githubusercontent.com/u/3930276?s=400&v=4" title="Maximilien Bersoult" width="80" height="80"></a> &nbsp;
-<a href="https://github.com/jiliangWANG"><img src="https://avatars1.githubusercontent.com/u/48441685?s=400&v=4" title="Jiliang Wang" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/Nohzoh"><img src="https://avatars3.githubusercontent.com/u/38663853?s=400&v=4" title="Thomas Arnaud" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/agelibert"><img src="https://avatars1.githubusercontent.com/u/28709386?s=400&v=4" title="Adrien Gélibert" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/Thebarda"><img src="https://avatars3.githubusercontent.com/u/12515407?s=400&u=5642f34672a7c1ea887c6c3e12cd28880aa3971e&v=4" title="Tom Darneix" width="80" height="80"></a> &nbsp;
@@ -64,6 +62,7 @@ immediately.
 <a href="https://github.com/adr-mo"><img src="https://avatars2.githubusercontent.com/u/31647811?s=400&v=4" title="Adrien Morais" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/jeremyjaouen"><img src="https://avatars.githubusercontent.com/u/61694165?s=400&v=4" title="Jérémy Jaouen" width="80" height="80"></a> &nbsp;
 <a href="https://github.com/zaouchelo"><img src="https://avatars.githubusercontent.com/u/42534944?s=400&u=bed32195d47b193e010c9423fa6909bcdeee2fa9&v=4" title="Lotfi Zaouche" width="80" height="80"></a> &nbsp;
+<a href="https://github.com/a-launois"><img src="https://avatars.githubusercontent.com/u/88387848?v=4" title="Allyriane Launois" width="80" height="80"></a> &nbsp;
 
 <h4> Quality Assurance </h4>
 

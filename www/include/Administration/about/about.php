@@ -81,22 +81,19 @@ $release = $dbResult->fetchRow();
                     <p>Adrien Morais</p>
                     <p>Bruno D'auria</p>
                     <p>David Boucher</p>
-                    <p>Etienne Gautier</p>
                     <p>Jérémy Delpierre</p>
                     <p>Jérémy Jaouen</p>
-                    <p>Jiliang Wang</p>
                     <p>Kevin Duret</p>
                     <p>Laurent Calvet</p>
                     <p>Laurent Pinsivy</p>
-                    <p>Loïc Laurent</p>
                     <p>Lotfi Zaouche</p>
                     <p>Maximilien Bersoult</p>
                     <p>Quentin Garnier</p>
-                    <p>Samir Brizini</p>
                     <p>Stéphane Chapron</p>
                     <p>Remi Grès</p>
                     <p>Tom Darneix</p>
                     <p>Thomas Arnaud</p>
+                    <p>Allyriane Launois</p>
                 </td>
                 <td></td>
             </tr>
@@ -106,6 +103,14 @@ $release = $dbResult->fetchRow();
                 </td>
                 <td style="padding-top: 10px;" colspan="2">
                     <table class="table">
+                        <tr>
+                            <td>Loïc Laurent</td>
+                            <td>Jiliang Wang</td>
+                        </tr>
+                        <tr>
+                            <td>Etienne Gautier</td>
+                            <td>Samir Brizini</td>
+                        </tr>
                         <tr>
                             <td>Thi Uyên Dang</td>
                             <td>Thomas Untoja</td>
