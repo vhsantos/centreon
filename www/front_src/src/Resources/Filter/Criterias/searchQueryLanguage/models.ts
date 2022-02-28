@@ -1,7 +1,7 @@
 import { prop, toLower } from 'ramda';
+import { CriteriaNames } from '../../../models';
 
 import {
-  CriteriaNames,
   selectableResourceTypes,
   selectableStates,
   selectableStateTypes,

@@ -1,6 +1,6 @@
 import { ListingModel } from '@centreon/ui';
 
-export enum ResourceType {
+enum ResourceType {
   host = 'host',
   metaservice = 'metaservice',
   service = 'service',
@@ -96,7 +96,19 @@ export interface ResourceLinks {
 
 export type TranslationType = (label: string) => string;
 
-export enum SortOrder {
+enum SortOrder {
   asc = 'asc',
   desc = 'desc',
 }
+
+enum CriteriaNames {
+  hostGroups = 'host_groups',
+  monitoringServers = 'monitoring_servers',
+  resourceTypes = 'resource_types',
+  serviceGroups = 'service_groups',
+  states = 'states',
+  statusTypes = 'status_types',
+  statuses = 'statuses',
+}
+
+export { SortOrder, ResourceType, CriteriaNames };

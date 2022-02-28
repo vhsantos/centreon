@@ -34,7 +34,7 @@ import {
   useMemoComponent,
 } from '@centreon/ui';
 
-import { TimeValue, Line as LineModel, AdjustTimePeriodProps } from '../models';
+import { TimeValue, Line as LineModel, AdjustTimePeriodProps, TimeShiftDirection } from '../models';
 import {
   getTime,
   getMin,
@@ -64,7 +64,6 @@ import Annotations from './Annotations';
 import Axes from './Axes';
 import TimeShiftZones, {
   TimeShiftContext,
-  TimeShiftDirection,
 } from './TimeShiftZones';
 import {
   changeMousePositionAndTimeValueDerivedAtom,

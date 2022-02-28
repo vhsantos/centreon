@@ -8,7 +8,8 @@ import makeStyles from '@mui/styles/makeStyles';
 
 import { useMemoComponent } from '@centreon/ui';
 
-import { useTimeShiftContext, TimeShiftDirection } from '.';
+import { useTimeShiftContext } from '.';
+import { TimeShiftDirection } from '../../models';
 
 export const timeShiftZoneWidth = 50;
 

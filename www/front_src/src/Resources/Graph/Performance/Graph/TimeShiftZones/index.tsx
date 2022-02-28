@@ -10,11 +10,7 @@ import memoizeComponent from '../../../../memoizedComponent';
 
 import TimeShiftZone, { timeShiftZoneWidth } from './Zone';
 import TimeShiftIcon, { timeShiftIconSize } from './Icon';
-
-export enum TimeShiftDirection {
-  backward,
-  forward,
-}
+import { TimeShiftDirection } from '../../models';
 
 interface TimeShiftContextProps {
   canAdjustTimePeriod: boolean;

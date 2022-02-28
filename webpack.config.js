@@ -3,7 +3,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
 const { merge } = require('webpack-merge');
-
 const baseConfig = require('centreon-frontend/packages/frontend-config/webpack/base');
 const extractCssConfig = require('centreon-frontend/packages/frontend-config/webpack/patch/extractCss');
 

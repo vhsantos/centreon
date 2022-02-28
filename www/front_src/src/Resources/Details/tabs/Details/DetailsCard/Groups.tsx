@@ -7,9 +7,8 @@ import { Grid, Typography } from '@mui/material';
 import makeStyles from '@mui/styles/makeStyles';
 
 import { labelGroups } from '../../../../translatedLabels';
-import { CriteriaNames } from '../../../../Filter/Criterias/models';
 import { ResourceDetails } from '../../../models';
-import { ResourceType } from '../../../../models';
+import { CriteriaNames, ResourceType } from '../../../../models';
 
 import GroupChip from './GroupChip';
 

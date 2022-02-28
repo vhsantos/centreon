@@ -84,8 +84,7 @@ import { buildResourcesEndpoint } from '../Listing/api/endpoint';
 import { cancelTokenRequestParam } from '../testUtils';
 import { defaultGraphOptions } from '../Graph/Performance/ExportableGraphWithTimeline/graphOptionsAtoms';
 import useFilter from '../testUtils/useFilter';
-import { CriteriaNames } from '../Filter/Criterias/models';
-import { ResourceType } from '../models';
+import { CriteriaNames, ResourceType } from '../models';
 import useLoadDetails from '../testUtils/useLoadDetails';
 
 import {

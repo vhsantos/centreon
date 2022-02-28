@@ -1,6 +1,6 @@
 import { SelectEntry } from '@centreon/ui';
 
-import { SortOrder } from '../../models';
+import { CriteriaNames, SortOrder } from '../../models';
 import {
   labelAcknowledged,
   labelInDowntime,
@@ -180,16 +180,6 @@ export interface CriteriaDisplayProps {
 
 export interface CriteriaById {
   [criteria: string]: CriteriaDisplayProps;
-}
-
-export enum CriteriaNames {
-  hostGroups = 'host_groups',
-  monitoringServers = 'monitoring_servers',
-  resourceTypes = 'resource_types',
-  serviceGroups = 'service_groups',
-  states = 'states',
-  statusTypes = 'status_types',
-  statuses = 'statuses',
 }
 
 const selectableCriterias: CriteriaById = {

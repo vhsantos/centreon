@@ -51,9 +51,9 @@ import {
   TimeValue,
   Line as LineModel,
   AdjustTimePeriodProps,
+  TimeShiftDirection,
 } from './models';
 import { getTimeSeries, getLineData, getMetrics } from './timeSeries';
-import { TimeShiftDirection } from './Graph/TimeShiftZones';
 import MemoizedGraphActions from './GraphActions';
 import {
   isListingGraphOpenAtom,

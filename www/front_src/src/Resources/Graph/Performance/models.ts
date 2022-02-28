@@ -59,3 +59,8 @@ export enum GraphOptionId {
   displayEvents = 'displayEvents',
   displayTooltips = 'displayTooltips',
 }
+
+export enum TimeShiftDirection {
+  backward,
+  forward,
+}

@@ -7,7 +7,8 @@ import makeStyles from '@mui/styles/makeStyles';
 
 import { useMemoComponent } from '@centreon/ui';
 
-import { TimeShiftDirection, useTimeShiftContext } from '.';
+import { useTimeShiftContext } from '.';
+import { TimeShiftDirection } from '../../models';
 
 export const timeShiftIconSize = 20;
 
