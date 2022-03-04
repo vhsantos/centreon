@@ -80,9 +80,6 @@
     "guzzlehttp/psr7": {
         "version": "1.8.2"
     },
-    "hansott/psr7-cookies": {
-        "version": "3.0.2"
-    },
     "instaclick/php-webdriver": {
         "version": "1.4.7"
     },
@@ -251,6 +248,9 @@
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
+    },
+    "respect/stringifier": {
+        "version": "0.2.0"
     },
     "respect/validation": {
         "version": "1.1.31"
@@ -502,8 +502,8 @@
     "symfony/polyfill-php80": {
         "version": "v1.22.1"
     },
-    "symfony/profiler-pack": {
-        "version": "v1.0.5"
+    "symfony/polyfill-php81": {
+        "version": "v1.25.0"
     },
     "symfony/property-access": {
         "version": "v4.4.20"
@@ -551,9 +551,6 @@
     },
     "symfony/serializer": {
         "version": "v4.4.22"
-    },
-    "symfony/serializer-pack": {
-        "version": "v1.0.4"
     },
     "symfony/service-contracts": {
         "version": "v2.4.0"

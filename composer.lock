@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5d326720cc934845c5baa45afffdbf4",
+    "content-hash": "df7bab30beaea0b93032efb3627e0d80",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -6769,23 +6769,23 @@
         },
         {
             "name": "centreon/centreon-test-lib",
-            "version": "21.04.x-dev",
+            "version": "dev-MON-12409",
             "source": {
                 "type": "git",
                 "url": "https://github.com/centreon/centreon-test-lib.git",
-                "reference": "188b54b0208112b4fb8f60a3711025a8f6742478"
+                "reference": "a2e6533ab0c8619598339e2f35a8d25e78f6467e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/188b54b0208112b4fb8f60a3711025a8f6742478",
-                "reference": "188b54b0208112b4fb8f60a3711025a8f6742478",
+                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/a2e6533ab0c8619598339e2f35a8d25e78f6467e",
+                "reference": "a2e6533ab0c8619598339e2f35a8d25e78f6467e",
                 "shasum": ""
             },
             "require": {
                 "behat/behat": "^3.0",
                 "guzzlehttp/guzzle": "~6.0",
                 "justinrainbow/json-schema": "^5.2",
-                "league/openapi-psr7-validator": "^0.14.0",
+                "league/openapi-psr7-validator": "^0.18",
                 "nyholm/psr7": "^1.3",
                 "phpstan/phpstan": "^0.12.29",
                 "psr/http-client": "^1.0",
@@ -6825,9 +6825,9 @@
             ],
             "support": {
                 "issues": "https://github.com/centreon/centreon-test-lib/issues",
-                "source": "https://github.com/centreon/centreon-test-lib/tree/21.04.x"
+                "source": "https://github.com/centreon/centreon-test-lib/tree/MON-12409"
             },
-            "time": "2021-10-19T14:30:57+00:00"
+            "time": "2022-03-04T16:08:19+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -7095,67 +7095,6 @@
             "time": "2021-10-05T13:56:00+00:00"
         },
         {
-            "name": "hansott/psr7-cookies",
-            "version": "3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hansott/psr7-cookies.git",
-                "reference": "0d7f31d4f1d989421fe5227d8ef7f32ecd8f57ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hansott/psr7-cookies/zipball/0d7f31d4f1d989421fe5227d8ef7f32ecd8f57ef",
-                "reference": "0d7f31d4f1d989421fe5227d8ef7f32ecd8f57ef",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0 || ^8.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "guzzlehttp/psr7": "^1.3",
-                "phpunit/phpunit": "^5.7 || ^6.0 || ^7.5",
-                "scrutinizer/ocular": "~1.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "HansOtt\\PSR7Cookies\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hans Ott",
-                    "email": "hans@iott.consulting",
-                    "role": "Developer"
-                }
-            ],
-            "description": "🍪 bakes cookies for PSR-7 messages",
-            "homepage": "https://github.com/hansott/psr7-cookies",
-            "keywords": [
-                "cookies",
-                "fig",
-                "hansott",
-                "http-message",
-                "psr7-cookies",
-                "setcookie"
-            ],
-            "support": {
-                "issues": "https://github.com/hansott/psr7-cookies/issues",
-                "source": "https://github.com/hansott/psr7-cookies/tree/3.0.2"
-            },
-            "time": "2020-07-19T10:15:58+00:00"
-        },
-        {
             "name": "instaclick/php-webdriver",
             "version": "1.4.10",
             "source": {
@@ -7220,35 +7159,39 @@
         },
         {
             "name": "league/openapi-psr7-validator",
-            "version": "0.14",
+            "version": "0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/openapi-psr7-validator.git",
-                "reference": "7dca015645810a5ffffe12341938f83411b3fcb2"
+                "reference": "5f98f98abf37f4533473699ef2ff2b4dc9b8d52e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/openapi-psr7-validator/zipball/7dca015645810a5ffffe12341938f83411b3fcb2",
-                "reference": "7dca015645810a5ffffe12341938f83411b3fcb2",
+                "url": "https://api.github.com/repos/thephpleague/openapi-psr7-validator/zipball/5f98f98abf37f4533473699ef2ff2b4dc9b8d52e",
+                "reference": "5f98f98abf37f4533473699ef2ff2b4dc9b8d52e",
                 "shasum": ""
             },
             "require": {
-                "cebe/php-openapi": "^1.3",
+                "cebe/php-openapi": "^1.6",
                 "ext-json": "*",
-                "hansott/psr7-cookies": "^3.0.2",
                 "league/uri": "^6.3",
                 "php": ">=7.2",
-                "psr/cache": "^1.0",
+                "psr/cache": "^1.0 || ^2.0 || ^3.0",
                 "psr/http-message": "^1.0",
                 "psr/http-server-middleware": "^1.0",
-                "respect/validation": "^1.1.3",
+                "respect/validation": "^1.1.3 || ^2.0",
                 "riverline/multipart-parser": "^2.0.3",
                 "webmozart/assert": "^1.4"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^8.0",
                 "guzzlehttp/psr7": "^1.5",
-                "phpunit/phpunit": "^7|^8|^9",
+                "hansott/psr7-cookies": "^3.0.2",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1",
+                "phpstan/phpstan-phpunit": "^1",
+                "phpstan/phpstan-webmozart-assert": "^1",
+                "phpunit/phpunit": "^7 || ^8 || ^9",
                 "symfony/cache": "^5.1"
             },
             "type": "library",
@@ -7271,9 +7214,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/openapi-psr7-validator/issues",
-                "source": "https://github.com/thephpleague/openapi-psr7-validator/tree/0.14"
+                "source": "https://github.com/thephpleague/openapi-psr7-validator/tree/0.18"
             },
-            "time": "2020-11-30T09:35:21+00:00"
+            "time": "2022-03-01T10:34:32+00:00"
         },
         {
             "name": "league/uri",
@@ -8640,44 +8583,101 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-            "name": "respect/validation",
-            "version": "1.1.31",
+            "name": "respect/stringifier",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Respect/Validation.git",
-                "reference": "45d109fc830644fecc1145200d6351ce4f2769d0"
+                "url": "https://github.com/Respect/Stringifier.git",
+                "reference": "e55af3c8aeaeaa2abb5fa47a58a8e9688cc23b59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Respect/Validation/zipball/45d109fc830644fecc1145200d6351ce4f2769d0",
-                "reference": "45d109fc830644fecc1145200d6351ce4f2769d0",
+                "url": "https://api.github.com/repos/Respect/Stringifier/zipball/e55af3c8aeaeaa2abb5fa47a58a8e9688cc23b59",
+                "reference": "e55af3c8aeaeaa2abb5fa47a58a8e9688cc23b59",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.8",
+                "malukenho/docheader": "^0.1.7",
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/stringify.php"
+                ],
+                "psr-4": {
+                    "Respect\\Stringifier\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Respect/Stringifier Contributors",
+                    "homepage": "https://github.com/Respect/Stringifier/graphs/contributors"
+                }
+            ],
+            "description": "Converts any value to a string",
+            "homepage": "http://respect.github.io/Stringifier/",
+            "keywords": [
+                "respect",
+                "stringifier",
+                "stringify"
+            ],
+            "support": {
+                "issues": "https://github.com/Respect/Stringifier/issues",
+                "source": "https://github.com/Respect/Stringifier/tree/0.2.0"
+            },
+            "time": "2017-12-29T19:39:25+00:00"
+        },
+        {
+            "name": "respect/validation",
+            "version": "2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Validation.git",
+                "reference": "4c21a7ffc9a4915673cb2c2843963919e664e627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Validation/zipball/4c21a7ffc9a4915673cb2c2843963919e664e627",
+                "reference": "4c21a7ffc9a4915673cb2c2843963919e664e627",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0",
+                "respect/stringifier": "^0.2.0",
                 "symfony/polyfill-mbstring": "^1.2"
             },
             "require-dev": {
-                "egulias/email-validator": "~1.2 || ~2.1",
-                "mikey179/vfsstream": "^1.5",
-                "phpunit/phpunit": "~4.0 || ~5.0",
-                "symfony/validator": "~2.6.9",
-                "zendframework/zend-validator": "~2.3"
+                "egulias/email-validator": "^3.0",
+                "malukenho/docheader": "^0.1",
+                "mikey179/vfsstream": "^1.6",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-deprecation-rules": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpunit/phpunit": "^9.3",
+                "psr/http-message": "^1.0",
+                "respect/coding-standard": "^3.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "symfony/validator": "^3.0||^4.0",
+                "zendframework/zend-validator": "^2.1"
             },
             "suggest": {
                 "egulias/email-validator": "Strict (RFC compliant) email validation",
                 "ext-bcmath": "Arbitrary Precision Mathematics",
+                "ext-fileinfo": "File Information",
                 "ext-mbstring": "Multibyte String Functions",
-                "friendsofphp/php-cs-fixer": "Fix PSR2 and other coding style issues",
                 "symfony/validator": "Use Symfony validator through Respect\\Validation",
                 "zendframework/zend-validator": "Use Zend Framework validator through Respect\\Validation"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Respect\\Validation\\": "library/"
@@ -8685,7 +8685,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
@@ -8702,9 +8702,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Respect/Validation/issues",
-                "source": "https://github.com/Respect/Validation/tree/1.1.31"
+                "source": "https://github.com/Respect/Validation/tree/2.2.3"
             },
-            "time": "2019-05-28T06:10:06+00:00"
+            "time": "2021-03-19T14:12:45+00:00"
         },
         {
             "name": "riverline/multipart-parser",
