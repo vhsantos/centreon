@@ -67,6 +67,7 @@ require_once dirname(__FILE__) . '/resource.class.php';
 require_once dirname(__FILE__) . '/engine.class.php';
 require_once dirname(__FILE__) . '/broker.class.php';
 require_once dirname(__FILE__) . '/timezone.class.php';
+require_once dirname(__FILE__) . '/plugins.class.php';
 
 class Generate
 {
@@ -76,6 +77,8 @@ class Generate
     private $installed_modules = null;
     private $module_objects = null;
     protected $dependencyInjector = null;
+    private bool $isPluginsCanBeExported;
+    private int $numberOfReset = 0;
 
     public function __construct(\Pimple\Container $dependencyInjector)
     {
@@ -256,7 +259,21 @@ class Generate
             $this->current_poller['id'],
             $this->current_poller['localhost']
         );
+
+        if ($this->isPluginsCanBeExported) {
+            (new Plugins(
+                Command::getInstance(
+                    $this->dependencyInjector
+                ),
+                Backend::getInstance(
+                    $this->dependencyInjector
+                ),
+                $this->dependencyInjector['configuration_db']
+            ))->generate();
+        }
+
         $this->generateModuleObjects(1);
+
         Engine::getInstance($this->dependencyInjector)->generateFromPoller($this->current_poller);
         $this->backend_instance->movePath($this->current_poller['id']);
 
@@ -378,5 +395,26 @@ class Generate
         $this->current_poller = null;
         $this->installed_modules = null;
         $this->module_objects = null;
+        if (++$this->numberOfReset === 1) {
+            $this->isPluginsCanBeExported = $this->isPluginsCanBeExported();
+        }
+    }
+
+    /**
+     * Indicates if the plugin commands can be exported.
+     *
+     * @return bool
+     */
+    private function isPluginsCanBeExported(): bool
+    {
+        /**
+         * @var CentreonDB $db
+         */
+        $db = $this->dependencyInjector['configuration_db'];
+        $statement = $db->query('SELECT value FROM options WHERE `key` = \'ppm_is_automatic_mode\'');
+        if ($statement && $result = $statement->fetch(\PDO::FETCH_ASSOC)) {
+            return $result['value'] === '1';
+        }
+        return false;
     }
 }
